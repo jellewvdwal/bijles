@@ -100,7 +100,7 @@
   .slider { max-width: 860px; margin-top: 28px; }
   .slides { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; scroll-behavior: smooth; }
   .slides::-webkit-scrollbar { display: none; }
-  .slide { flex: 0 0 100%; scroll-snap-align: start; padding-right: 8px; }
+  .slide { flex: 0 0 100%; max-width: none; scroll-snap-align: start; padding-right: 8px; }
   .slider-nav { display: flex; align-items: center; gap: 16px; margin-top: 22px; }
   .arrow { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--accent); background: transparent; color: var(--accent-dark); display: grid; place-items: center; cursor: pointer; }
   .arrow:hover { background: var(--tint); }
